@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5129D62C6119E900AB8C53 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5129D52C6119E900AB8C53 /* ToDoItemTests.swift */; };
+		AD5129D82C611A1300AB8C53 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5129D72C611A1300AB8C53 /* ToDoItem.swift */; };
 		ADFBADD42C5C0356002F3C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD32C5C0356002F3C63 /* AppDelegate.swift */; };
 		ADFBADD62C5C0356002F3C63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD52C5C0356002F3C63 /* SceneDelegate.swift */; };
 		ADFBADD82C5C0356002F3C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD72C5C0356002F3C63 /* ViewController.swift */; };
 		ADFBADDB2C5C0356002F3C63 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADFBADDA2C5C0356002F3C63 /* Base */; };
 		ADFBADDD2C5C0359002F3C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFBADDC2C5C0359002F3C63 /* Assets.xcassets */; };
 		ADFBADE02C5C0359002F3C63 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ADFBADDF2C5C0359002F3C63 /* Base */; };
-		ADFBADEB2C5C0359002F3C63 /* ToDoTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADEA2C5C0359002F3C63 /* ToDoTestsTests.swift */; };
 		ADFBADF52C5C0359002F3C63 /* ToDoTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADF42C5C0359002F3C63 /* ToDoTestsUITests.swift */; };
 		ADFBADF72C5C0359002F3C63 /* ToDoTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADF62C5C0359002F3C63 /* ToDoTestsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD5129D12C61143100AB8C53 /* ToDoTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDoTests.xctestplan; sourceTree = "<group>"; };
+		AD5129D42C6119E800AB8C53 /* ToDoTestsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoTestsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD5129D52C6119E900AB8C53 /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
+		AD5129D72C611A1300AB8C53 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		ADFBADD02C5C0356002F3C63 /* ToDoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFBADD32C5C0356002F3C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFBADD52C5C0356002F3C63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +50,6 @@
 		ADFBADDF2C5C0359002F3C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADFBADE12C5C0359002F3C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADFBADE62C5C0359002F3C63 /* ToDoTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADFBADEA2C5C0359002F3C63 /* ToDoTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTestsTests.swift; sourceTree = "<group>"; };
 		ADFBADF02C5C0359002F3C63 /* ToDoTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFBADF42C5C0359002F3C63 /* ToDoTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTestsUITests.swift; sourceTree = "<group>"; };
 		ADFBADF62C5C0359002F3C63 /* ToDoTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		ADFBADC72C5C0356002F3C63 = {
 			isa = PBXGroup;
 			children = (
+				AD5129D12C61143100AB8C53 /* ToDoTests.xctestplan */,
 				ADFBADD22C5C0356002F3C63 /* ToDoTests */,
 				ADFBADE92C5C0359002F3C63 /* ToDoTestsTests */,
 				ADFBADF32C5C0359002F3C63 /* ToDoTestsUITests */,
@@ -106,6 +111,7 @@
 				ADFBADDC2C5C0359002F3C63 /* Assets.xcassets */,
 				ADFBADDE2C5C0359002F3C63 /* LaunchScreen.storyboard */,
 				ADFBADE12C5C0359002F3C63 /* Info.plist */,
+				AD5129D72C611A1300AB8C53 /* ToDoItem.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -113,7 +119,8 @@
 		ADFBADE92C5C0359002F3C63 /* ToDoTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				ADFBADEA2C5C0359002F3C63 /* ToDoTestsTests.swift */,
+				AD5129D52C6119E900AB8C53 /* ToDoItemTests.swift */,
+				AD5129D42C6119E800AB8C53 /* ToDoTestsTests-Bridging-Header.h */,
 			);
 			path = ToDoTestsTests;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 					};
 					ADFBADE52C5C0359002F3C63 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = ADFBADCF2C5C0356002F3C63;
 					};
 					ADFBADEF2C5C0359002F3C63 = {
@@ -260,6 +268,7 @@
 			files = (
 				ADFBADD82C5C0356002F3C63 /* ViewController.swift in Sources */,
 				ADFBADD42C5C0356002F3C63 /* AppDelegate.swift in Sources */,
+				AD5129D82C611A1300AB8C53 /* ToDoItem.swift in Sources */,
 				ADFBADD62C5C0356002F3C63 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFBADEB2C5C0359002F3C63 /* ToDoTestsTests.swift in Sources */,
+				AD5129D62C6119E900AB8C53 /* ToDoItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +503,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -502,6 +512,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RamazanGasratov.ToDoTestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDoTestsTests/ToDoTestsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoTests";
@@ -513,6 +525,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -521,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RamazanGasratov.ToDoTestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDoTestsTests/ToDoTestsTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoTests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDoTests";

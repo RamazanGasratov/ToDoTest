@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "3F7C4B2F-7708-435F-A476-75C6DF4C7461",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ToDoTests.xcodeproj",
+      "identifier" : "ADFBADCF2C5C0356002F3C63",
+      "name" : "ToDoTests"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ToDoTests.xcodeproj",
+        "identifier" : "ADFBADE52C5C0359002F3C63",
+        "name" : "ToDoTestsTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ToDoTests.xcodeproj",
+        "identifier" : "ADFBADEF2C5C0359002F3C63",
+        "name" : "ToDoTestsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
