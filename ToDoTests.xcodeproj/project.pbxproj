@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD5129D62C6119E900AB8C53 /* ToDoItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5129D52C6119E900AB8C53 /* ToDoItemTests.swift */; };
 		AD5129D82C611A1300AB8C53 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5129D72C611A1300AB8C53 /* ToDoItem.swift */; };
+		ADBF30942C6D391700BB4221 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF30932C6D391700BB4221 /* Location.swift */; };
 		ADFBADD42C5C0356002F3C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD32C5C0356002F3C63 /* AppDelegate.swift */; };
 		ADFBADD62C5C0356002F3C63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD52C5C0356002F3C63 /* SceneDelegate.swift */; };
 		ADFBADD82C5C0356002F3C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFBADD72C5C0356002F3C63 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		AD5129D42C6119E800AB8C53 /* ToDoTestsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoTestsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		AD5129D52C6119E900AB8C53 /* ToDoItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTests.swift; sourceTree = "<group>"; };
 		AD5129D72C611A1300AB8C53 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		ADBF30932C6D391700BB4221 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		ADFBADD02C5C0356002F3C63 /* ToDoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFBADD32C5C0356002F3C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFBADD52C5C0356002F3C63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				ADFBADDE2C5C0359002F3C63 /* LaunchScreen.storyboard */,
 				ADFBADE12C5C0359002F3C63 /* Info.plist */,
 				AD5129D72C611A1300AB8C53 /* ToDoItem.swift */,
+				ADBF30932C6D391700BB4221 /* Location.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				ADFBADD82C5C0356002F3C63 /* ViewController.swift in Sources */,
 				ADFBADD42C5C0356002F3C63 /* AppDelegate.swift in Sources */,
+				ADBF30942C6D391700BB4221 /* Location.swift in Sources */,
 				AD5129D82C611A1300AB8C53 /* ToDoItem.swift in Sources */,
 				ADFBADD62C5C0356002F3C63 /* SceneDelegate.swift in Sources */,
 			);
